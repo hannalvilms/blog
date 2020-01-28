@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f86f3128-a5cd-430f-b3b8-61f8f418c17a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/constants.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/database.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/master_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/master_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/welcome/welcome_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/posts/posts_index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580205044670</updated>
-      <workItem from="1580205045916" duration="3716000" />
+      <workItem from="1580205045916" duration="4085000" />
     </task>
     <task id="LOCAL−00001" summary="commit">
       <created>1580205105790</created>
@@ -85,7 +78,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1580212464152</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Rename welcome controller to posts. Add component/jqueryui">
+      <created>1580213055678</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1580213055678</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +106,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="Update config.php. Add halo framework." />
     <MESSAGE value="Make master controller dynamic. Add halo framework vol2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Make master controller dynamic. Add halo framework vol2." />
+    <MESSAGE value="Rename welcome controller to posts. Add component/jqueryui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename welcome controller to posts. Add component/jqueryui" />
   </component>
 </project>
