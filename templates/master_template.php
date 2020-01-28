@@ -72,16 +72,9 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?= $_SESSION['language'] ?> <b
                                 class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <?php foreach ($supported_languages as $language): ?>
-                            <li><a href="<?= $controller ?>?language=<?= $language ?>"
-                                   class="<?= $language == $_SESSION['language'] ? 'active' : '' ?>"><?= $language ?></a>
-                            </li>
-                        <?php endforeach ?>
-                    </ul>
-                </li>
-                <li><a href="settings"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
+                    <?php require "views/$this->controller/{$this->controller}_$this->action.php";?>
                 <li title="<?=__('Log out')?> <?= $auth->name ?>"><a href="logout"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></a></li>
+
         </div>
         <!--/.nav-collapse -->
     </div>

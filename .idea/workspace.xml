@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f86f3128-a5cd-430f-b3b8-61f8f418c17a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/master_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/master_template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580205044670</updated>
-      <workItem from="1580205045916" duration="2213000" />
+      <workItem from="1580205045916" duration="3089000" />
     </task>
     <task id="LOCAL−00001" summary="commit">
       <created>1580205105790</created>
@@ -66,7 +66,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1580207102069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Update config.php. Add halo framework.">
+      <created>1580211766671</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1580211766671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,7 +90,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Update config.php. Add halo framework." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update config.php. Add halo framework." />
   </component>
 </project>
