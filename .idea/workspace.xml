@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f86f3128-a5cd-430f-b3b8-61f8f418c17a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/database.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/posts/posts_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/posts/posts_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/posts/posts_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/posts/posts_view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       <workItem from="1580205045916" duration="9766000" />
       <workItem from="1583321155780" duration="523000" />
       <workItem from="1583390725047" duration="2643000" />
-      <workItem from="1584306856263" duration="175000" />
+      <workItem from="1584306856263" duration="1182000" />
     </task>
     <task id="LOCAL−00001" summary="commit">
       <created>1580205105790</created>
@@ -111,7 +112,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1583393222633</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Add posts listing functionality">
+      <created>1584307093331</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1584307093331</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
