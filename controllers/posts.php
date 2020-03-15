@@ -1,5 +1,7 @@
 <?php namespace App;
 
+use Exception;
+
 class posts extends Controller
 {
 
@@ -13,6 +15,12 @@ class posts extends Controller
     {
 
         $this->posts = get_all("SELECT * FROM post");
+    }
+
+    function view(){
+        $post_id = $this->params[0]; // get the post id from url for example http://localhost/blog/posts/2 - post_id is 2
+        $this->post = get_first('SELECT * FROM post NATURAL JOIN users WHERE post_id='.$post_id);
+        $this->tags = get_all('SELECT * FROM post_tags NATURAL JOIN tag WHERE post_id='.$post_id);
     }
 
     /**
@@ -38,13 +46,9 @@ class posts extends Controller
         echo "Here is a nice exception for you to debug:";
 
         // Generate error for testing
-        throw new \Exception('This is a test');
+        throw new Exception('This is a test');
 
 
     }
 
-    function view(){
-        $post_id = $this->params[0];
-        $this->post = get_first('SELECT * FROM post NATURAL JOIN users WHERE post_id=' .$post_id);
-    }
 }

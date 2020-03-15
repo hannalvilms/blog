@@ -64,11 +64,11 @@ CREATE TABLE IF NOT EXISTS `post_tags` (
 --
 
 INSERT INTO `post_tags` (`post_id`, `tag_id`) VALUES
-(1, 1),
-(1, 2),
-(1, 3),
-(2, 1),
-(2, 4);
+(5, 1),
+(6, 2),
+(4, 3),
+(4, 1),
+(5, 2);
 
 -- --------------------------------------------------------
 
@@ -79,7 +79,7 @@ INSERT INTO `post_tags` (`post_id`, `tag_id`) VALUES
 DROP TABLE IF EXISTS `tag`;
 CREATE TABLE IF NOT EXISTS `tag` (
                                      `tag_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-                                     `tag_name` varchar(255) NOT NULL,
+                                     `tag_name` varchar(25) NOT NULL,
                                      PRIMARY KEY (`tag_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
@@ -88,10 +88,9 @@ CREATE TABLE IF NOT EXISTS `tag` (
 --
 
 INSERT INTO `tag` (`tag_id`, `tag_name`) VALUES
-(1, 'php'),
-(2, 'web'),
-(3, 'mvc'),
-(4, 'framework');
+(1, 'lorem'),
+(2, 'ipsum'),
+(3, 'dolor');
 
 -- --------------------------------------------------------
 

@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
     <title><?= PROJECT_NAME ?></title>
 
     <!-- Bootstrap core CSS -->
@@ -46,7 +44,9 @@
     <div class="container">
         <a class="navbar-brand" href="#"><?= PROJECT_NAME ?></a>
         <ul class="navbar-nav">
-            <li class="nav-item <?= $controller == 'posts' ? 'active' : '' ?>"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item <?= $controller == 'posts' ? 'active' : '' ?>"><a class="nav-link" href="<?php echo BASE_URL;?>">Posts</a></li>
+            <li class="nav-item <?= $controller == 'tags' ? 'active' : '' ?>"><a class="nav-link" href="<?php echo BASE_URL;?>tags">Tags</a></li>
+            <li class="nav-item <?= $controller == 'users' ? 'active' : '' ?>"><a class="nav-link" href="<?php echo BASE_URL;?>users">Users</a></li>
             <li class="nav-item <?= $controller == 'halo' ? 'active' : '' ?>"><a class="nav-link" href="halo">Halo admin</a></li>
             <!-- dropdown list item start-->
             <li class="nav-item dropdown">
@@ -71,7 +71,6 @@
 
 </div>
 <!-- /container -->
-
 
 <?php require 'templates/partials/error_modal.php'; ?>
 
